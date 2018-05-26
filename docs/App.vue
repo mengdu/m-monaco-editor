@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- <fork-link :repo="repo" /> -->
+    <fork-link :repo="repo" />
     <header>
       <img src="./assets/logo.png">
       <h1>{{pkg.name}} <span>{{pkg.version}}</span></h1>

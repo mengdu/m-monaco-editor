@@ -6,7 +6,7 @@ import './assets/common.css'
 import DemoBlock from './components/demo-block'
 import MButton from 'vue-m-button'
 import 'vue-m-button/dist/css/default.css'
-import MMonacoEditor from '@/index'
+import MMonacoEditor from '@/../index'
 
 Vue.use(MButton)
 Vue.use(MMonacoEditor)

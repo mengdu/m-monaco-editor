@@ -2,8 +2,8 @@
   <div ref="monaco-editor" class="m-monaco-editor"></div>
 </template>
 <script>
-import {loader} from 'vue-m-loader'
-
+// import {loader} from 'vue-m-loader'
+let loader = () => {}
 export default {
   name: 'MMonacoEditor',
   props: {
@@ -88,7 +88,6 @@ export default {
               enabled: this.showMinimap
             }
           })
-          window.editor = this.editor
           this.$emit('init', this.editor, this.editorDom, window.monaco)
           this.setTheme()
           this.setMode()
@@ -142,8 +141,7 @@ export default {
 <style>
   .m-monaco-editor{
     min-height: 350px;
-    /*border: solid 1px #15A2E8;*/
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
   }
   .monaco-editor.vs .view-overlays .current-line,
   .monaco-editor.vs .margin-view-overlays .current-line-margin{
