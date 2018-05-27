@@ -12,6 +12,12 @@
   "bugs": {
     "url": "https://github.com/mengdu/m-monaco-editor/issues"
   },
+  "files": [
+    "dist",
+    "src",
+    "example",
+    "index.js"
+  ],
   "homepage": "https://mengdu.github.io/m-monaco-editor/example/",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

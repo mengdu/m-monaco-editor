@@ -2,8 +2,7 @@
   <div ref="monaco-editor" class="m-monaco-editor"></div>
 </template>
 <script>
-// import {loader} from 'vue-m-loader'
-let loader = () => {}
+import {loader} from 'vue-m-loader'
 export default {
   name: 'MMonacoEditor',
   props: {
